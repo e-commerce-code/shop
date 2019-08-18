@@ -20,7 +20,7 @@ User.create({firstName: req.body.firstName,
              lastName: req.body.lastName
 }) 
 .then(user => {console.log('USER',user)
-res.send('added')
+res.send('user added')
 })
 .catch(err => console.log('ERROR',err))
 )
